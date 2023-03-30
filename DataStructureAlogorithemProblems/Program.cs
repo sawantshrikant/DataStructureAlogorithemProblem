@@ -17,6 +17,9 @@ namespace DataStructureAlgorithmProblems
             InsertionSort sort = new InsertionSort();
             sort.ReadFile("D:\\class\\BL_.net_Exercise\\DataStructureAlogorithemProblem\\DataStructureAlogorithemProblems\\File.txt");
 
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.ReadFile("D:\\class\\BL_.net_Exercise\\DataStructureAlogorithemProblem\\DataStructureAlogorithemProblems\\FileInteger.txt");
+
 
 
         }
