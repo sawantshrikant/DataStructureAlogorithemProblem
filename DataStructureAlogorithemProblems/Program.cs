@@ -1,4 +1,5 @@
 ﻿
+using DataStructureAlgorithmProblems;
 using System;
 
 namespace DataStructureAlgorithmProblems
@@ -8,6 +9,9 @@ namespace DataStructureAlgorithmProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Data Structure Algorithm Problem!");
+
+            BinarySearch binarySearch = new BinarySearch();
+            binarySearch.ReadFile("D:\\class\\BL_.net_Exercise\\DataStructureAlogorithemProblem\\DataStructureAlogorithemProblems\\File.txt");
 
 
 
