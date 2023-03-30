@@ -1,5 +1,6 @@
 ﻿
 using DataStructureAlgorithmProblems;
+using DataStructures;
 using System;
 
 namespace DataStructureAlgorithmProblems
@@ -12,6 +13,9 @@ namespace DataStructureAlgorithmProblems
 
             BinarySearch binarySearch = new BinarySearch();
             binarySearch.ReadFile("D:\\class\\BL_.net_Exercise\\DataStructureAlogorithemProblem\\DataStructureAlogorithemProblems\\File.txt");
+
+            InsertionSort sort = new InsertionSort();
+            sort.ReadFile("D:\\class\\BL_.net_Exercise\\DataStructureAlogorithemProblem\\DataStructureAlogorithemProblems\\File.txt");
 
 
 
